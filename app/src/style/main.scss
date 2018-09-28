@@ -8,12 +8,12 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
 }
 
 body {
     overflow-x: hidden;
     font-weight: normal;
+    background-color: #222;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -26,3 +26,6 @@ body {
 //     display: grid;
 //     justify-items: center;
 // }
+
+@import 'navbar.scss';
+@import 'infoblock.scss';
