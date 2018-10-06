@@ -12,8 +12,9 @@ html {
 
 body {
     overflow-x: hidden;
-    font-weight: normal;
-    background-color: #222;
+    // font-weight: normal;
+    // background-color: #222;
+    background-color: #333333;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,4 +29,4 @@ body {
 // }
 
 @import 'navbar.scss';
-@import 'infoblock.scss';
+@import 'addbutton.scss'
